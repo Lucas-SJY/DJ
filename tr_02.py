@@ -172,7 +172,7 @@ for i in range(0, len(bonus)):
     tot_mon.append(tot)
 workbook.sheets[3].range('H2').options(transpose = True).value = tot_mon
 
-print("github version")
+print("github version 2")
 
 workbook.save()
 workbook.close()
